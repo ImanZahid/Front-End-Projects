@@ -10,3 +10,9 @@
 --Project2--
 
 ![2023-01-17 (7)](https://user-images.githubusercontent.com/97961673/212997186-a82de75a-f60d-4d18-8b39-de58c529ec48.png)
+
+--Project3--
+
+The red tab changes the color of the text to red, the blue one changes the color to blue and when you hover the text, the text style changes.
+
+![2023-01-16](https://user-images.githubusercontent.com/97961673/212997728-810852bb-3c6c-4d54-a009-ee32d38fe97d.png)
