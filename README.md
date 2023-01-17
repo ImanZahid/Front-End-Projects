@@ -26,3 +26,9 @@ The red tab changes the color of the text to red, the blue one changes the color
 Enter the number of boxes to be generated having random sizes.
 
 ![2023-01-16 (7)](https://user-images.githubusercontent.com/97961673/212999374-6069edd0-de5e-477c-addb-593503a6b6da.png)
+
+--Project6--
+
+Gpa calculator
+
+![2023-01-16 (8)](https://user-images.githubusercontent.com/97961673/212999930-10a740ab-0eb5-4d6c-9703-1d976493375d.png)
