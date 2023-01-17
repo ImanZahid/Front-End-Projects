@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <style>
+        .container { text-align: center; display: flex; justify-content: center;}
+        .box { height: 40px; width: 300px; border:1px solid #AAC; line-height:40px; position: relative }
+        #bar { position: absolute; top:0;left:0; width:50%; height:40px; background: #DDF; z-index: -1; }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button>-</button>
+        <div class="box">
+            <span>50</span>%
+            <div id="bar"></div>
+        </div>
+        <button>+</button>
+    </div>
+    <script>
+        let btns = document.querySelectorAll("button") ;
+        let bar = document.getElementById("bar") ;
+        let percentage = document.querySelector("span") ;
+        for ( let btn of btns) {
+            btn.addEventListener("click", function(){
+                let current = Number(percentage.innerText) ;
+                if (this.innerText == "+" && current < 100) current += 10 ; 
+                if (this.innerText == "-" && current > 0) current -= 10 ;
+                percentage.innerText = current ;
+                bar.style.width = current + "%" ;
+            })
+        }
+    </script>
+</body>
+</html>
