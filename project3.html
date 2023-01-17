@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".red").click(function () {
+          $(".first").css("color", "red");
+        });
+        $(".blue").click(function () {
+          $(".first").css("color", "blue");
+        });
+      });
+    </script>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td {
+        width: 100px;
+        border: 1px solid black;
+        height: 40px;
+        text-align: center;
+      }
+      .red {
+        background: red;
+        cursor: pointer;
+      }
+      .blue {
+        background: blue;
+        cursor: pointer;
+      }
+      .first:hover {
+        letter-spacing: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="2" class="first">LOREM IPSUM</td>
+      </tr>
+      <tr>
+        <td class="red"></td>
+        <td class="blue"></td>
+      </tr>
+    </table>
+  </body>
+</html>
